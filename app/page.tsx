@@ -12,14 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  ShoppingCart,
-  Download,
-  X,
-  ChevronRight,
-  Star,
-  Heart,
-} from "lucide-react";
+import { ShoppingCart, X, ChevronRight, Star } from "lucide-react";
 
 const ProductIllustration = ({
   category,
@@ -237,10 +230,6 @@ const DigitalStore = () => {
   ];
 
   const categories = ["all", "design", "templates", "productivity"];
-  interface CartItem {
-    product: Product;
-    quantity: number;
-  }
 
   const containerVariants = {
     hidden: { opacity: 0 },
